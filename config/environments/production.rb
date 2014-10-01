@@ -83,7 +83,7 @@ Rails.application.configure do
     #Required for Heroku
     # Note: Set this to your Actual Host
   config.action_mailer.default_url_options = { host: 'th-pinteresting.herokuapp.com', port: 3000 }
-end
+
 
 #Set Paperclip to Upload to Amazon
 config.paperclip_defaults = {
@@ -94,3 +94,4 @@ config.paperclip_defaults = {
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 }
+end

@@ -24,3 +24,5 @@ module Pinteresting
     config.assets.initialize_on_precompile = false
   end
 end
+
+config.assets.paths << "#{Rails}/vendor/assets/fonts"

@@ -14,6 +14,11 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk', '~> 1.20.0'
 #Amazon for Image Hosting
 
+gem 'jquery-turbolinks'
+
+gem 'masonry-rails', '~> 0.2.0'
+#JS to give the box design in Rails
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'

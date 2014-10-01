@@ -11,6 +11,10 @@ gem 'devise'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 #Paperclip for Image Uploads
 
+gem 'aws-sdk', '~> 1.20.0'
+#Amazon for Image Hosting
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
